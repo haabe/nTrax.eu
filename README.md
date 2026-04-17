@@ -1,32 +1,17 @@
 # ₙtrax: Web Tracker DAW
 
-A browser-based music tracker combining classic mod tracker precision (ProTracker, FastTracker, Renoise) with modular synthesis flexibility (Buzz Tracker, Reaktor). Runs entirely client-side — no backend, no accounts, no cloud sync.
+A browser-based music tracker, where mod-tracker precision meets modular-synth flexibility.
 
-## Overview
+**Try it.** [beta.ntrax.eu](https://beta.ntrax.eu)
 
-ₙtrax MVP delivers a complete composition workflow: build a synthesizer chain on the canvas, save it as a named instrument, then compose a melody in the tracker-style tone track editor.
+## About this repository
 
-## Technology Stack
+The source for ntrax is private. This public repository exists so that users can file issues, request features, and follow development in the open. Please open an issue here if you hit a bug or have feedback on the beta.
 
-- **React 19**: UI framework with automatic compiler optimizations
-- **TypeScript**: Strict type safety throughout
-- **Vite**: Fast development server and optimized builds
-- **ReactFlow**: Node-based interface library
-- **Zustand**: Lightweight state management
-- **Immer**: Immutable state updates with mutable syntax
-- **Zod**: Runtime type validation
-- **IndexedDB**: Browser-native persistent storage
-- **Vitest**: Fast unit testing with property-based testing support
+## Stack
 
-## Acknowledgments
+React 19, TypeScript, Vite, ReactFlow, Zustand, Immer, Zod, IndexedDB, Vitest.
 
-Inspired by:
-- Jeskola Buzz Tracker
-- Renoise
-- FastTracker 2
+## Status
 
-Built with:
-- React 19
-- ReactFlow
-- Zustand
-- Vite
+Early beta. See [open issues](https://github.com/haabe/nTrax.eu/issues) for known bugs and the current roadmap.
